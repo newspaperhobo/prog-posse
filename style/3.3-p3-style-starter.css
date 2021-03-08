@@ -1,0 +1,108 @@
+.flex {
+    display: flex;
+}
+
+.flex-center {
+    justify-content: center;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.text-center {
+    text-align: center;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: #000;
+    font-size: 1em;
+}
+
+p {
+    font-size: 1.3em;
+}
+
+header {
+    background: #0B604E;
+    background-image: url('../images/code.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header > div {
+    padding: 1em;
+    color: white;
+    background-color: #0B604E;
+    max-width: 25em;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav a {
+    color: white;
+    padding: 1em;
+    text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus {
+    background-color: #ddd;
+    color: black;
+}
+
+nav a.active {
+    background-color: #0B604E;
+    color: white;
+}
+
+main {
+    padding: 1em;
+    background-color: #f1f1f1;
+}
+
+form {
+    max-width: 55em;
+    margin: 0 auto;
+}
+
+fieldset {
+    border: none;
+    margin: 0.1em 0;
+    font-size: 1.2em;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 16px;
+    padding: 1em 0 0 0;
+}
+
+button {
+    padding: 1em;
+}
+
+.card {
+    background-color: #C2C2C2;
+    max-width: 15em;
+    margin: 0.5em;
+    padding: 1em;
+}
+
+.card > img {
+    width: 100%;
+}
+
+form label {
+    padding-left: 1em;
+}
+
+footer {
+    padding: 1em;
+    background: #ddd;
+}
